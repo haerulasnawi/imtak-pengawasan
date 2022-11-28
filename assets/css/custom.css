@@ -1,0 +1,66 @@
+body {
+	background: url(http://localhost/wpu-login/assets/img/bg.jpg) no-repeat center
+		center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	--body-font: 'Poppins', sans-serif;
+	--biggest-font-size: 2.25rem;
+	--h1-font-size: 1.5rem;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1rem;
+	--normal-font-size: .938rem;
+	--small-font-size: .813rem;
+	--smaller-font-size: .75rem;
+
+	/*========== Font weight ==========*/
+	--font-medium: 500;
+	--font-semi-bold: 600;
+
+}
+
+/*memberi style pada class panel default*/
+.panel-default {
+	opacity: 0.9;
+	margin-top: 180px;
+}
+.form-group.last {
+	margin-bottom: 0px;
+}
+
+.breadcrumb {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 0.75rem 1rem;
+	margin-bottom: 1rem;
+	list-style: none;
+	background-color: #B6DFCF;
+	border-radius: 0.35rem;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item {
+	padding-left: 0.5rem;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+	display: inline-block;
+	padding-right: 0.5rem;
+	color: #858796;
+	content: "/";
+  }
+  
+  .breadcrumb-item + .breadcrumb-item:hover::before {
+	text-decoration: underline;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item:hover::before {
+	text-decoration: none;
+  }
+  
+  .breadcrumb-item.active {
+	color: #858796;
+  }
